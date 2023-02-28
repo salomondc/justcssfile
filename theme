@@ -1,0 +1,331 @@
+body {
+  font-family: "Lato", sans-serif !important;
+  font-size: 14px !important;
+  color: #222 !important;
+}
+
+.input-text {
+  border-radius: 0px !important;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 10%) !important;
+  pointer-events: none !important;
+  color:#222 !important;
+}
+
+.input-text:hover {
+  box-shadow: inset 0 -1.8em 1em 0 rgb(0 0 0 / 0%) !important;
+  border: 1px solid #e1e1e1 !important;
+}
+
+.input-text:focus {
+  box-shadow: 0 0 5px #ccc !important;
+  border-color: #ddd !important;
+}
+
+.selection {
+  border-radius: 0px !important;
+}
+
+.select2-dropdown {
+  margin-top: -18px !important;
+  background: white !important;
+  border: 1px solid #ddd !important;
+  border-radius: 0px !important;
+}
+
+.select2-search__field {
+  border-radius: 0px !important;
+}
+
+#wcpay-payment-request-wrapper {
+  display: none !important;
+}
+
+#wcpay-payment-request-button-separator {
+  display: none !important;
+}
+
+h3 {
+  font-size: 0px !important;
+  margin-bottom: 1rem !important;
+  color: #555 !important;
+}
+
+label {
+  font-weight: bold !important;
+  color: #222 !important;
+}
+
+abbr.required {
+  display: none !important;
+}
+
+#billing_company_field {
+  display: none !important;
+}
+
+#billing_address_1_field {
+  display: inline-block !important;
+  width: calc(50% - 1rem) !important;
+  margin-right: 2rem !important;
+}
+
+#billing_address_2_field {
+  display: inline-block !important;
+  width: calc(50% - 1rem) !important;
+}
+
+label[for="billing_state"] {font-size: 0px !important;}
+
+label[for="billing_state"]:before {
+  content: 'State / County ';
+  font-size: 14px !important;
+}
+
+label[for="billing_postcode"]:after {
+  content: " / ZIP";
+}
+
+.woocommerce-info {
+  max-width: 586px !important;
+  background: white !important;
+  color: #555 !important;
+  padding: 0px !important;
+  padding-bottom: 10px !important;
+  border: 0px !important;
+  border-bottom: 1px solid #bbb !important;
+  font-size: 16px !important;
+}
+
+.woocommerce-info:before {
+  display: none !important;
+}
+
+.woocommerce-billing-fields:before {
+  content: 'BILLING & SHIPPING';
+  font-size: 1.15rem !important;
+  font-weight: bold !important;
+  color: #555 !important;
+  transform: scaleY(1.1) !important;
+  display: block !important;
+}
+
+.woocommerce-checkout-review-order-inner:before {
+  content: 'CURRENT ORDER';
+  font-size: 1.15rem !important;
+  font-weight: bold !important;
+  color: #555 !important;
+  transform: scaleY(1.1) !important;
+  display: block !important;
+  margin-bottom: 1rem !important;
+  margin-top: -3px !important;
+}
+
+#order_review {
+  margin-top: -19px !important;
+}
+
+.woocommerce-checkout-review-order-inner {
+  border: 2px solid #006039 !important;
+  padding: 26px !important;
+}
+
+#order_review td, #order_review th {padding: 10px 0;background: white;}
+
+#order_review thead [class^=product-] {
+  font-weight: bold !important;
+  color: #777 !important;
+  border-bottom: 2px solid #ddd !important;
+  padding: 5px 0 !important;
+}
+
+#place_order {
+  background: #d26e4b !important;
+  border-radius: 0px !important;
+  width: fit-content !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+#place_order:hover {
+  box-shadow: inset 0 0 0 100px rgb(0 0 0 / 20%) !important;
+}
+
+.form-row.place-order {
+  text-align: left !important;
+}
+
+input#terms {
+  margin-right: 9px !important;
+}
+
+.select2-results__option {
+  transition: none !important;
+}
+
+.select2-results__option--highlighted {
+  background: #0073aa !important;
+  color: white !important;
+}
+
+#order_review tfoot th {
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+  color: #666 !important;
+}
+
+input#ship-to-different-address-checkbox ~ span {
+  font-size: 14px !important;
+  margin-left: 10px !important;
+}
+
+.showcoupon {
+  text-decoration: none !important;
+}
+
+.showcoupon:hover {
+  text-decoration: underline !important;
+  color: black !important;
+}
+
+.form-row.woocommerce-invalid input.input-text {
+  border: 1px solid #e1e1e1 !important;
+}
+
+.woocommerce-error {
+  max-width: 586px !important;
+  background: white !important;
+  padding: 0px !important;
+  margin: 0px;
+  height: fit-content;
+  border: 0px !important;
+  font-size: 16px !important;
+  color: #b20000 !important;
+}
+
+.woocommerce-error:before {
+  display: none !important;
+}
+
+.payment_box.payment_method_woocommerce_payments {
+  background: #ceefb6 !important;
+  padding:20px;
+  border-radius: 5px;
+}
+
+.wc-saved-payment-methods {
+  list-style: none;
+}
+
+#wc-woocommerce_payments-cc-form {
+  border: 1px solid #bcd9b2;
+  border-radius: 4px;
+}
+
+.pr-backtosite {
+  display: inline-block; 
+  margin:40px; 
+  padding: 15px; 
+  border-radius:4px; 
+  background-color:#135723; 
+  color:#fff !important; 
+  text-decoration: none; 
+  font-weight: bold; 
+  font-size:20px;
+}
+
+#mutagen_totals {
+  font-size: 24px;
+  color: #333;
+  padding: 30px;
+  margin: auto;
+}
+
+div#payment {
+  max-width: 542px;
+  padding: 2rem;
+  border: 1px solid #ddd;
+}
+
+div#payment:before {content: 'Summary';font-size: 24px;display: block;}
+
+div#mutagen_totals {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  font-size: 16px;
+}
+
+.tot_label:after {
+  content: '';
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 1px dashed #aaa;
+}
+
+.tot_label {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.wc_payment_methods.payment_methods.methods {
+  padding: 0;
+  list-style: none;
+}
+
+ul.wc_payment_methods.payment_methods.methods:before {
+  content: 'Payment information';
+  font-size: 24px;
+}
+
+.wc_payment_method.payment_method_woocommerce_payments label {
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+
+.payment_box.payment_method_woocommerce_payments {
+  background: none !important;
+  padding: 0;
+}
+
+.payment_box.payment_method_woocommerce_payments p {
+  margin: 0;
+  color: #aaa;
+}
+
+p.testmode-info {
+  max-width: 481px;
+  bottom: 171px;
+}
+
+div#wcpay-card-element {padding: 1rem;}
+
+fieldset#wc-woocommerce_payments-cc-form {
+  border: none;
+  padding: 0px !important;
+}
+
+#wcpay-errors .woocommerce-error {
+  margin: 4px !important;
+  font-size: 14px !important;
+  opacity: .7;
+}
+
+.woocommerce-terms-and-conditions-wrapper {
+  margin: 0px !important;
+}
+
+.form-row {
+  /* margin-top: 39px !important; */
+}
+
+button#place_order {}
+
+span.woocommerce-terms-and-conditions-checkbox-text {
+  font-weight: 400;
+}
+
+.woocommerce-privacy-policy-text {
+}
